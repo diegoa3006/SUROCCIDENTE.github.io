@@ -97,5 +97,29 @@
     /*Agrega un margen entre el texto y la imagen   */
     text-align: right;
     height: 300;
+}
+/*------------------------------------------------*/
+/*-------------------archivo Valle------------*/
+/*------------------------------------------------*/
+.textoimagenValle {
+    padding: 100px 25px;
+    border: 2px solid #a39c9c5c;
+    /* 2px de ancho, sólido (tipo de borde) y color negro (#000) */
+    display: flex;
 
+}
+.textoValle {
+    flex: 3;
+    /* Hace que el texto ocupe el espacio restante  */
+    text-align: center;
+
+}
+
+.imagenvalle {
+    flex-shrink: 0;
+    /*Evita que la imagen se reduzca si el espacio es insuficiente  */
+    margin-left: 30px;
+    /*Agrega un margen entre el texto y la imagen   */
+    text-align: right;
+    height: 200;
 }
